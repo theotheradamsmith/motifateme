@@ -5,7 +5,7 @@ app.set("view engine", "ejs");
 
 // RESTful Routes
 app.get("/", (req, res) => {
-	res.render("pages/index");
+	res.render("pages/landing");
 });
 
 app.listen(3000, () => {
